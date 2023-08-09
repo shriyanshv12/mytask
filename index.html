@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="hhh-lines">
+            Bundle & Save
+        </h2>
+        <div class="box1" id="target1">
+            <input type="radio" value="DKK 195.00" name="radiogroup" id="radio1" class="radio" onclick="showDiv(1)">
+            <label class="radio-label">1 Pair <br> DKK 195.00</label>
+            <p class="p1">50% off </p>
+            <div id="div1" class="hidden">
+                <div class="details">
+                    <p class="colour">Size &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Colour</p>
+
+                    <select class="select" name="size" id="size">
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+
+                    <select class="select" name="colours" id="colours">
+                        <option value="blue">Blue</option>
+                        <option value="white">White</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div class="box2" id="target2">
+            <input type="radio" value="DKK 345.00" name="radiogroup" id="radio2" class="radio" onclick="showDiv(2)">
+            <label class="radio-label">2 Pair <br> DKK 345.00</label>
+            <p class="p2">Most Popular</p>
+            <p class="p4">DKK 195.00</p>
+            <p class="p3">40% off</p>
+            <div id="div2" class="hidden">
+                <div class="details">
+                    <p class="colour">Size &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Colour</p>
+                    <span class="spn"> #1</span>
+                    <select class="select2" name="size" id="size">
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                    <select class="select2" name="colours" id="colours">
+                        <option value="blue">Blue</option>
+                        <option value="white">White</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                    </select>
+
+                    <div class="details2">
+                        <span class="spn"> #2</span>
+                        <select class="select2" name="size" id="size">
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                        <select class="select2" name="colours" id="colours">
+                            <option value="blue">Blue</option>
+                            <option value="white">White</option>
+                            <option value="red">Red</option>
+                            <option value="black">Black</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box3" id="target3">
+            <input type="radio" value="DKK 528.00" name="radiogroup" id="radio3" class="radio" onclick="showDiv(3)">
+            <label class="radio-label">3 Pair <br> DKK 528.00</label>
+            <p class="p1">60% off </p>
+            <div id="div3" class="hidden">
+                <div class="details">
+                    <p class="colour">Size &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Colour</p>
+                    <span class="spn"> #1</span>
+                    <select class="select3" name="colours" id="colours">
+                        <option value="blue">Blue</option>
+                        <option value="white">White</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                    </select>
+                    <select class="select3" name="size" id="size">
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                    <div class="detail2">
+                        <span class="spn"> #2</span>
+                        <select class="select3" name="colours" id="colours">
+                            <option value="blue">Blue</option>
+                            <option value="white">White</option>
+                            <option value="red">Red</option>
+                            <option value="black">Black</option>
+                        </select>
+                        <select class="select3" name="size" id="size">
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </div>
+                    <div class="detail2">
+                        <span class="spn"> #3</span>
+                        <select class="select3" name="colours" id="colours">
+                            <option value="blue">Blue</option>
+                            <option value="white">White</option>
+                            <option value="red">Red</option>
+                            <option value="black">Black</option>
+                        </select>
+                        <select class="select3" name="size" id="size">
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="second">
+            <p2 class="shipping">Free 2 Day Shipping</p2>
+            <p2 class="total">Total:<span id="radiogroup"></span></p2>
+        </div>
+        <button class="third" onclick="changeValue()">
+            <span> + Add to Cart </span>
+        </button>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
